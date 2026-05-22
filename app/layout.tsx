@@ -9,23 +9,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'RG EVENT PRODUCTION - Profesional Event Organizer',
   description: 'Solusi acara yang lengkap dan profesional dengan layanan terbaik untuk event Anda',
-  generator: 'v0.app',
+  generator: 'rg-event-production',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/rg1.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/rg2.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/rg3.jpeg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/rg3.jpeg',
   },
 }
 
