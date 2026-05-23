@@ -124,7 +124,7 @@ export default function Footer() {
             <h4 className="font-semibold text-white">Kontak</h4>
             <ul className="space-y-2 text-sm">
               <li><a href="tel:+6281219198636" className="hover:text-primary transition-colors">+62 812 191 98636</a></li>
-              {/* <li><a href="mailto:info@rgevent.com" className="hover:text-primary transition-colors">info@rgevent.com</a></li> */}
+              <li><a href="mailto:rgproduction23@gmail.com" className="hover:text-primary transition-colors">rgproduction23@gmail.com</a></li>
               <li>Jakarta, Indonesia</li>
             </ul>
           </div>
