@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useRef } from 'react'
 
-export default function Contact() {
+export default function Portfolio() {
   const videoRef = useRef<HTMLVideoElement>(null)
   
 
@@ -34,7 +34,7 @@ export default function Contact() {
   }, [])
 
   return (
-    <section className="relative w-full h-[60vh] md:h-screen bg-black overflow-hidden flex items-center justify-center">
+    <section id="portofolio" className="relative w-full h-[60vh] md:h-screen bg-black overflow-hidden flex items-center justify-center">
       <div className="absolute inset-0 z-0 w-full h-full">
         <video
           ref={videoRef}

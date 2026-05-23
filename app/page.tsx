@@ -5,7 +5,7 @@ import Hero from '@/components/hero'
 import About from '@/components/about'
 import Services from '@/components/services'
 import Experience from '@/components/experience'
-import Contact from '@/components/contact'
+import Portofolio from '@/components/portofolio'
 import Footer from '@/components/footer'
 
 export default function Page() {
@@ -16,7 +16,7 @@ export default function Page() {
       <About />
       <Services />
       <Experience />
-      <Contact />
+      <Portofolio />
       <Footer />
     </main>
   )

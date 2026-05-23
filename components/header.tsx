@@ -33,7 +33,7 @@ export default function Header() {
             <Link href="#services" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
               LAYANAN
             </Link>
-            <Link href="#contact" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
+            <Link href="#portofolio" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
               PORTOFOLIO
             </Link>
           </nav>
@@ -68,7 +68,7 @@ export default function Header() {
             <Link href="#services" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
               LAYANAN
             </Link>
-            <Link href="#contact" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
+            <Link href="#portofolio" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
               PORTOFOLIO
             </Link>
             <button 
