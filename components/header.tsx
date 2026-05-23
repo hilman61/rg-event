@@ -33,13 +33,15 @@ export default function Header() {
             <Link href="#services" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
               LAYANAN
             </Link>
-            <Link href="#portfolio" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
+            <Link href="#contact" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
               PORTOFOLIO
             </Link>
           </nav>
 
           {/* CTA Button */}
-          <button className="hidden md:block px-6 py-2 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors">
+          <button 
+          onClick={() => window.open("https://wa.me/6281219198636", "_blank")}
+          className="hidden md:block px-6 py-2 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors">
             KONSULTASI
           </button>
 
@@ -66,10 +68,13 @@ export default function Header() {
             <Link href="#services" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
               LAYANAN
             </Link>
-            <Link href="#portfolio" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
+            <Link href="#contact" className="block px-4 py-2 text-sm font-medium text-foreground/70 hover:text-foreground">
               PORTOFOLIO
             </Link>
-            <button className="w-full mt-4 px-6 py-2 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors">
+            <button 
+              onClick={() => window.open("https://wa.me/6281219198636", "_blank")}
+              className="w-full mt-4 px-6 py-2 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-colors"
+            >
               KONSULTASI
             </button>
           </nav>

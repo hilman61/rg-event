@@ -26,7 +26,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-3">
               <a 
-                href="https://wa.me/621234567890" 
+                href="https://wa.me/6281219198636" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-emerald-600 hover:border-emerald-600 transition-all duration-300"
@@ -42,7 +42,7 @@ export default function Footer() {
               </a>
 
               <a 
-                href="https://instagram.com/akun_ig_kamu" 
+                href="https://www.instagram.com/rgeventproduction?igsh=MWZtd3c4aGo1MHFrNQ%3D%3D&utm_source=qr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 transition-all duration-300"
@@ -53,7 +53,8 @@ export default function Footer() {
 
               {/* Facebook */}
               <a 
-                href="https://facebook.com/akun_fb_kamu" 
+                // href="https://facebook.com/akun_fb_kamu" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-blue-600 hover:border-blue-600 transition-all duration-300"
@@ -63,7 +64,7 @@ export default function Footer() {
               </a>
 
               <a 
-                href="https://youtube.com/akun_yt_kamu" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-red-600 hover:border-red-600 transition-all duration-300"
@@ -73,7 +74,7 @@ export default function Footer() {
               </a>
 
               <a 
-                href="https://linkedin.com/in/akun_linkedin_kamu" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-blue-700 hover:border-blue-700 transition-all duration-300"
@@ -83,7 +84,7 @@ export default function Footer() {
               </a>
 
               <a 
-                href="https://x.com/akun_x_kamu" 
+                href="#" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-400 hover:text-white hover:bg-gray-800 hover:border-gray-800 transition-all duration-300"
@@ -122,7 +123,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="font-semibold text-white">Kontak</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="tel:+621234567890" className="hover:text-primary transition-colors">+62 (123) 456-7890</a></li>
+              <li><a href="tel:+6281219198636" className="hover:text-primary transition-colors">+62 81) 191-98636</a></li>
               <li><a href="mailto:info@rgevent.com" className="hover:text-primary transition-colors">info@rgevent.com</a></li>
               <li>Jakarta, Indonesia</li>
             </ul>

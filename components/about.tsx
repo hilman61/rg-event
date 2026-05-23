@@ -19,7 +19,9 @@ export default function About() {
               Dengan tim yang berpengalaman, RG Event Production berkomitmen untuk memberikan pengalaman acara yang tak terlupakan melalui konsep yang kreatif, perhatian terhadap detail, serta koordinasi yang efisien dari awal hingga akhir acara.
             </p>
 
-            <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors mt-6">
+            <button 
+              onClick={() => window.open("https://www.instagram.com/rgeventproduction?igsh=MWZtd3c4aGo1MHFrNQ%3D%3D&utm_source=qr", "_blank")}
+              className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors mt-6">
               TENTANG KAMI
             </button>
           </div>

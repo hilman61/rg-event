@@ -27,10 +27,14 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors">
+            <button 
+              onClick={() => window.open("https://wa.me/6281219198636", "_blank")}
+              className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors">
               KONSULTASI GRATIS
             </button>
-            <button className="px-8 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition-colors">
+            <button 
+              onClick={() => window.open("https://www.instagram.com/rgeventproduction?igsh=MWZtd3c4aGo1MHFrNQ%3D%3D&utm_source=qr", "_blank")}
+              className="px-8 py-3 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition-colors">
               LIHAT PORTOFOLIO
             </button>
           </div>

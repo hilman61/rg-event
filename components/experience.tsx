@@ -20,7 +20,9 @@ export default function Experience() {
             </p>
 
             <div className="pt-4">
-              <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors">
+              <button 
+                onClick={() => window.open("https://wa.me/6281219198636", "_blank")}
+                className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-colors">
                 HUBUNGI KAMI
               </button>
             </div>
